@@ -8,8 +8,8 @@
 **Csapatnév:** Pointers
 
 **Csapat:**
-[https://github.com/davidhalasz](Halász Dávid) 
-Gila Attila 
+[https://github.com/davidhalasz](Halász Dávid)
+[Gila Attila](https://github.com/gilaattila95) 
 Kincs Ákos 
 Tóth László 
 
