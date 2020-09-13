@@ -19,7 +19,7 @@
 
 **:file_folder:Projekt név:**
 
-**:judge::briefcase:Megbízó:**
+**:briefcase:Megbízó:**
 
 **:bulb:Alapötlet:** 
 
