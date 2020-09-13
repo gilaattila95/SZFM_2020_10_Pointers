@@ -7,9 +7,18 @@
 
 **:name_badge:Csapatnév:** Pointers
 
-**:handshake:Csapat:**<br/>
-[Halász Dávid](https://github.com/davidhalasz)<br/>[Gila Attila](https://github.com/gilaattila95)<br/>[Kincs Ákos](https://github.com/kincsa)<br/>[Tóth László](https://github.com/grestemayster)
+**:handshake:Csapat:**
+
+[Halász Dávid](https://github.com/davidhalasz)
+
+[Gila Attila](https://github.com/gilaattila95)
+
+[Kincs Ákos](https://github.com/kincsa)
+
+[Tóth László](https://github.com/grestemayster)
+
 **:file_folder:Projekt név:**
+
 **:judge::briefcase:Megbízó:**
 
 **:bulb:Alapötlet:** 
