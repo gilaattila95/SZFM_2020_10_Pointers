@@ -7,7 +7,7 @@
 
 **Csapatnév:** Pointers
 
-**:handshake:Csapat:**
+**:handshake:Csapat:**<br/>
 [Halász Dávid](https://github.com/davidhalasz)<br/>[Gila Attila](https://github.com/gilaattila95)<br/>[Kincs Ákos](https://github.com/kincsa)<br/>[Tóth László](https://github.com/grestemayster)
 
 **Megbízó:**
