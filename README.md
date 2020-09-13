@@ -7,13 +7,10 @@
 
 **Csapatnév:** Pointers
 
-**Csapat:**
-[Halász Dávid](https://github.com/davidhalasz)
-[Gila Attila](https://github.com/gilaattila95) 
-[Kincs Ákos](https://github.com/kincsa)
-[Tóth László](https://github.com/grestemayster)
+**:handshake:Csapat:**
+[Halász Dávid](https://github.com/davidhalasz)  [Gila Attila](https://github.com/gilaattila95)  [Kincs Ákos](https://github.com/kincsa)  [Tóth László](https://github.com/grestemayster)
 
-**Megbízó:** 
+**Megbízó:**
 
 **Alapötlet:** 
 
