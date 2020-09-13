@@ -18,12 +18,12 @@
 - A képek formátumára vonatkozó követelmények: JPEG, JPG és PNG
 
 # 5.	Követelménylista
-K01 Reszponzív design
-K02 Letisztult, egyszerű felület
-K03 Belépőfelület az adminisztrátor számára.
-K04 Adatbázisba könnyen hozzáadhatók legyenek a cikkek.
-K05 Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
-K06 Böngészőfüggetlenség
+- K01 Reszponzív design
+- K02 Letisztult, egyszerű felület
+- K03 Belépőfelület az adminisztrátor számára.
+- K04 Adatbázisba könnyen hozzáadhatók legyenek a cikkek.
+- K05 Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
+- K06 Böngészőfüggetlenség
 -
 # 7. Fogalomszótár
 -
