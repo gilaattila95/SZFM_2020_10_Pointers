@@ -29,6 +29,3 @@
 - K04 Adatbázisba könnyen hozzáadhatók legyenek a cikkek.
 - K05 Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
 - K06 Böngészőfüggetlenség
-
-
-
