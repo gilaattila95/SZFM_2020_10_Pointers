@@ -17,11 +17,11 @@
 
 [Tóth László](https://github.com/grestemayster)
 
-**:file_folder:Projekt név:**
+**:file_folder:Projekt név:** *SZFM_Fact_Portal*
 
-**:briefcase:Megbízó:**
+**:briefcase:Megbízó:** **Mntn Kft.**
 
-**:bulb:Alapötlet:** 
+**:bulb:Alapötlet:** *Tényeket közlő weboldal*
 
 
 
