@@ -1,6 +1,6 @@
 # 1. Jelenlegi helyzet
 - A munkahely elhagyási szándék olyan jelenség, amely a modern szervezetek egyik leginkább megoldandó munkaszervezési problémájaként jelentkezik, különösen igaz ez az olyan munkahelyeknél, ahol nincs lehetőség kreatív munkavégzésre. 
- Vállalkozásunk, a jelenleg 10 fős alkalmazotti létszámmal rendelkező Mntn Kft. munkavállalói intenzív koncentrációt igénylő, monoton munkát végeznek napi 8 órában, leginkább számítógép előtt. 
+ Vállalkozásunk, a jelenleg 10 fős alkalmazotti létszámmal rendelkező **Mntn Kft.** munkavállalói intenzív koncentrációt igénylő, monoton munkát végeznek napi 8 órában, leginkább számítógép előtt. 
  A jelenlegi munkakörök nem teszik lehetővé a munkaerő képességeinek kibontakozását, ezért a monotonitás, a hasonló- vagy azonos műveletek végzése miatt gyakori a túlzott stressz, sok esetben a felmondás is vállalkozásunkban.
  Ezért éreztük úgy, hogy szükségük lenne valamire, ami a munka egyhangúságát kicsit megtöri.
  
