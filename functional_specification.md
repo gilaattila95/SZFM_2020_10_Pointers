@@ -19,6 +19,12 @@
 Az elsődleges szereplők, azaz a vállalat munkatársai gép előtt ülő munkát végeznek. Rendelkeznek legalább felhasználói szintű számítógépes ismeretekkel, de elvárás, hogy a weboldal kezelőfelülete ne legyen bonyolult. <br>
 Ugyanez vonatkozik az adminisztrátorokra is. Jelen esetünkben ők a másodlagos szereplők az esetünkben. A bejelentkezés után azonnal, egyszerűen tudjon cikkekel kapcsolatos adatokat bevinni és eltárolni. Fontos, hogy az adatok beküldése után azonnali visszajelzést kapjon az adminisztrátor, ha valami miatt nem sikerült az adatok eltárolása (pl.: kitöltetlen mező, nem megfelelő képformátum)</p>
 
+<p align="center">
+UML ábra</br>
+    <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/ff5e21ba06d99c6a5e85ee815fecc640fab08407/images/UML.png">
+</p>
+<br>
+
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
 
 ## 10. Képernyő tervek.
