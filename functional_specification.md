@@ -32,5 +32,24 @@ UML ábra</br>
 ## 11. Forgatókönyvek.
 
 ## 12. Funkció – követelmény megfeleltetés.
+A követelményspecifikációban követelményként megadott reszponzív design feltétele teljesülni fog, ugyanis a front-end Bootsrtrap
+keretrendszerrel kerül majd megvalósításra.
+
+A letisztult, egyszerű felület evidens, manapság a modern weblapoknál ez alapelvárás.
+Ezzel teljes mértékben tisztában is vagyunk, természetesen törekedni fogunk ezen követelmény
+kielégítésére. A képernyő terveken látható is az erre irányuló törekvés.
+
+A cikkek MySQL-ben történő tárolása lehetőséget ad majd azok könnyű manipulálására, kezelésére. Ebből következik, hogy az adatbázisba történő új cikkek hozzáadása a mai napig egyik legnépszerűbb adatbázis-kezelővel, a MySQL-lel könnyen kivitelezhető lesz majd.
+
+Az adminisztrátor számára elérhető funkciók rejtve maradnak majd az admin funkciókkal nem rendelkező felhasználók
+számára. Tehát értelemszerűen a munkatársak "csak" azt látják majd amit látniuk kell. Ezek a következők: a két gomb -amelyekkel kiválaszthatjuk, milyen cikkeket akarunk olvasni- és maguk a cikkek.
+
+A weblapunk a követelményspecifikációkban meghatározott technológiákkal megvalósítva a böngészőfüggetlenségi követelménynek is maradéktalanul eleget tesz majd, ugyanúgy fog megjelenni az összes asztali böngészőben egyaránt.
 
 ## 13. Fogalomszótár.
+
+[Reszponzív design](https://en.wikipedia.org/wiki/Responsive_web_design)
+
+[Boostrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+
+[MySQL](https://en.wikipedia.org/wiki/MySQL)
