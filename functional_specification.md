@@ -26,6 +26,27 @@ UML ábra</br>
 <br>
 
 ## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
+<b>Eset 1: Főképernyő látogatása</b>
+- A weboldal címének beírása után megjelenő főoldal megjelenítése.
+- Alapértelmezettként az Érdekes tényekkel kapcsolatos cikkek vannak beállítva, így először ez lesz látható.
+- A főoldalon látható elemek: Érdekes- és vicces tényeket megjelenítő gombok, a cikklista alatt oldalszámokat jelző gombok </br>
+
+<b>Eset 2: Érdekes gomb</b>
+- A felhasználó erre kattintva az érdekes tények csoportjába tartozó cikkek listáját jelenítheti meg.
+- Alapértelmezettként az Érdekes tényekkel kapcsolatos cikkek vannak beállítva, így először ez lesz látható.</br>
+
+<b>Eset 3: Vicces gomb</b>
+- A felhasználó erre kattintva a vicces tények csoportjába tartozó cikkek listáját jelenítheti meg.</br>
+
+<b>Eset 5: Adminisztrátor bejelentkező</b>
+- Admin bejelentkezési űrlap megjelenítése.
+- Beküldés után az űrlap adatainak ellenőrzése
+- Az adatok helyes megadása után, átirányítás a cikkfeltöltő oldalra.
+
+<b>Eset 6: Cikkek feltöltése</b>
+- Cikkfeltöltő űrlap megjelenítése. 
+- Űrlap adatainak tárolása.
+- At űrlap adatainak ellenőrzése (hiányzó elemek, helyes képformátumok használata)
 
 ## 10. Képernyő tervek.
 
