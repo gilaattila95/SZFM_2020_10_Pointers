@@ -10,11 +10,11 @@
     - Hozzáférés a cikkfeltöltő oldalhoz
     - Hozzáférés a cikkeket tartalmazó adatbázishoz
     
-##A rendszernek nem célja:
-- Minden látagató számára lehetőséget adni új cikk bejegyzésére
-- A felhasználó regisztráció lehetősége
-- Az említettnél több témakörben cikkeket gyűjteni
-- Hírlevél feliratkozás lehetősége
+## A rendszernek nem célja:
+   - Minden látagató számára lehetőséget adni új cikk bejegyzésére
+   - A felhasználó regisztráció lehetősége
+   - Az említettnél több témakörben cikkeket gyűjteni
+   - Hírlevél feliratkozás lehetősége
 
 # 2. Projekt terv
 
@@ -33,7 +33,7 @@
 - Letisztult, egyszerű, átlátható felület
 - Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
 
-##Törvényi előírások, szabványok:
+## Törvényi előírások, szabványok:
 
 # 5. Funkcionális terv
 
