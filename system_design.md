@@ -67,11 +67,11 @@ adminisztrátori jóváhagyás előz meg.
 
 # 6. Fizikai környezet
 
-- Vásárolt software komponensek és külső rendszerek
-- Hardver és hálózati topológia
-- Fizikai alrendszerek
-- Fejlesztő eszközök
-- Keretrendszer (pl. Spring)
+## Fejlesztő eszközök
+- HTML
+- CSS
+##Keretrendszer
+- Bootstrap
 
 # 7. Absztrakt domain modell
 
