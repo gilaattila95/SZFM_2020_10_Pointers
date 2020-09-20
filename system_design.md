@@ -67,12 +67,33 @@ adminisztrátori jóváhagyás előz meg.
 
 # 6. Fizikai környezet
 
-## Fejlesztő eszközök
+### Frontend
+- Visual Studio Code
+- Sublime Text
+- Brackets
+
+### Backend
+
+- Visual Studio Code
+- phpMyAdmin
+
+### Egyéb
+
+Böngészők:
+
+- Firefox
+- Google Chrome
+- Opera
+- MS Edge 
+
+### Fejlesztő eszközök
 - HTML
 - CSS
-##Keretrendszer
-- Bootstrap
 - PHP
+
+### Keretrendszer
+- Bootstrap
+
 
 # 7. Absztrakt domain modell
 
