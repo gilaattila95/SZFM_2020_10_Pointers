@@ -21,7 +21,7 @@ Ugyanez vonatkozik az adminisztrátorokra is. Jelen esetünkben ők a másodlago
 
 <p align="center">
 UML ábra</br>
-    <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/ff5e21ba06d99c6a5e85ee815fecc640fab08407/images/fact_UML.png">
+    <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/fact_UML.png">
 </p>
 <br>
 
