@@ -67,6 +67,38 @@ UML ábra</br>
 
 ## 11. Forgatókönyvek.
 
+-    11.1.	Kapcsolatfelvétel.
+-    11.2.	Első meeting a céggel.
+-    11.3.	Első csapat meeting.
+-    11.4. 	Második meeting a céggel.
+-    11.5.	Követelmény specifikációtanulmányozása.<br>	
+&nbsp;&nbsp;    11.5.1.		Jelenlegi helyzet.<br>	
+&nbsp;&nbsp;    11.5.2.		Vágyálom rendszer.<br>	
+&nbsp;&nbsp;    11.5.3.		Igényelt üzleti folyamatok.<br>	
+&nbsp;&nbsp;    11.5.4.		A rendszerre vonatkozó szabályok.<br>	
+&nbsp;&nbsp;    11.5.5.		Követelménylista
+-    11.6.	Funkcionális specifikáció készítése.<br>	
+&nbsp;&nbsp;     11.6.1		A rendszer céljai és nem céljai.<br>		
+&nbsp;&nbsp;     11.6.2.		Jelenlegi helyzet leírása.<br>	
+&nbsp;&nbsp;     11.6.3.		Vágyálom rendszer leírása.<br>	
+&nbsp;&nbsp;     11.6.4.		A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.<br>	
+&nbsp;&nbsp;     11.6.5. 		Jelenlegi üzleti folyamatok modellje.<br>	
+&nbsp;&nbsp;     11.6.6.		Igényelt üzleti folyamatok modellje.<br>	
+&nbsp;&nbsp;     11.6.7.		Követelmény lista.<br>	
+&nbsp;&nbsp;     11.6.8.		Használati esetek.<br>	
+&nbsp;&nbsp;     11.6.9.		Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.<br>	
+&nbsp;&nbsp;     11.6.10.		Képernyő tervek.<br>	
+&nbsp;&nbsp;     11.6.11.		Forgatókönyvek.<br>	
+&nbsp;&nbsp;     11.6.12.		Funkció – követelmény megfeleltetés.<br>	
+&nbsp;&nbsp;     11.6.13.		Fogalomszótár.
+-    11.7.	Hamradik meeting a céggel.
+-    11.8.	Weboldal elkészítése.<br>	
+&nbsp;&nbsp;     11.8.1.		Weboldal alapjának kódolása.<br>	
+&nbsp;&nbsp;     11.8.2.		Weboldal script-elése.<br>	
+&nbsp;&nbsp;     11.8.3.		Cikkek,Képek hozzáadása.
+-    11.9.	Weboldal átadása.
+
+
 ## 12. Funkció – követelmény megfeleltetés.
 A követelményspecifikációban követelményként megadott reszponzív design feltétele teljesülni fog, ugyanis a front-end Bootsrtrap
 keretrendszerrel kerül majd megvalósításra.
