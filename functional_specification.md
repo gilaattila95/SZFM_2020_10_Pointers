@@ -92,7 +92,7 @@ UML ábra</br>
 &nbsp;&nbsp;     11.6.12.		Funkció – követelmény megfeleltetés.<br>	
 &nbsp;&nbsp;     11.6.13.		Fogalomszótár.
 -    11.7.	Hamradik meeting a céggel.
--    11.8.	Első csapat meeting.
+-    11.8.	Második csapat meeting.
 -    11.9.	Weboldal elkészítése.<br>	
 &nbsp;&nbsp;     11.9.1.		Weboldal alapjának kódolása.<br>	
 &nbsp;&nbsp;     11.9.2.		Weboldal script-elése.<br>	
