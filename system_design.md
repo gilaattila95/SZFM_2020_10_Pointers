@@ -18,7 +18,16 @@
 
 # 2. Projekt terv
 
+- Projekt szerepkörök, felelősségek
+- Projekt munkások és felelősségeik
+- Ütemterv
+- Mérföldkövek
+
 # 3. Üzleti folyamatok modellje
+
+- Üzleti szereplők
+- Üzleti folyamatok
+- Üzleti entitások
 
 # 4. Követelmények
 
@@ -37,15 +46,44 @@
 
 # 5. Funkcionális terv
 
+- Rendszer szereplők
+- Rendszer használati esetek és lefutásaik
+- Határ osztályok
+- Menü hierarchiák
+- Képernyő tervek
+
 # 6. Fizikai környezet
+
+- Vásárolt software komponensek és külső rendszerek
+- Hardver és hálózati topológia
+- Fizikai alrendszerek
+- Fejlesztő eszközök
+- Keretrendszer (pl. Spring)
 
 # 7. Absztrakt domain modell
 
+- Domain specifikáció, fogalmak
+- Absztrakt komponensek, ezek kapcsolatai
+
 # 8. Architekturális terv
+
+- Egy architekturális tervezési minta (pl. MVC, 3-rétegű alkalmazás, …)
+- Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
+- Változások kezelése
+- Rendszer bővíthetősége
+- Biztonsági funkciók
 
 # 9. Adatbázis terv
 
+- Logikai adatmodell
+- Tárolt eljárások
+- Fizikai adatmodellt legeneráló SQL szkript
+
 # 10. Implementációs terv
+
+- Perzisztencia osztályok
+- Üzleti logika osztályai
+- Kliens oldal osztályai
 
 # 11. Tesztterv
 
