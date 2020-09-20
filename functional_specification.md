@@ -95,7 +95,9 @@ UML ábra</br>
 -    11.8.	Weboldal elkészítése.<br>	
 &nbsp;&nbsp;     11.8.1.		Weboldal alapjának kódolása.<br>	
 &nbsp;&nbsp;     11.8.2.		Weboldal script-elése.<br>	
-&nbsp;&nbsp;     11.8.3.		Cikkek,Képek hozzáadása.
+&nbsp;&nbsp;     11.8.3.		Cikkek,Képek hozzáadása.<br>	
+&nbsp;&nbsp;     11.8.4.		Weboldal tesztelése.Hiba esetén 11.8.5.-es pont.Amennyibel nincs hiba, akkor a 11.9.-es pont.<br>	
+&nbsp;&nbsp;     11.8.5.		Weboldal hibájának/hibáinak kijavítása. Vissza a 11.8.4.-as pontra.
 -    11.9.	Weboldal átadása.
 
 
