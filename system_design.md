@@ -72,6 +72,7 @@ adminisztrátori jóváhagyás előz meg.
 - CSS
 ##Keretrendszer
 - Bootstrap
+- PHP
 
 # 7. Absztrakt domain modell
 
