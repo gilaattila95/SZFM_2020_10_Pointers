@@ -18,10 +18,16 @@
 
 # 2. Projekt terv
 
-- Projekt szerepkörök, felelősségek
-- Projekt munkások és felelősségeik
-- Ütemterv
-- Mérföldkövek
+4 fős, fiatal csapatunk minden tagja egyetért abban, hogy egy ilyen projekt készítése során az egyik, ha 
+nem a legfontosabb teendő a feladatok egymás közötti igazságos felosztása. Csapatunk néhány tagja már rendelkezik
+webprogramozói múlttal, így a fejlesztői feladatok nagy része alapvetően rájuk hárulnak majd.
+A csapat másik két tagja az oldal igényes megjelenésének megvalósításával lesz megbízva.
+
+Az ütemtervünk a következőképp nézett ki: egyeztettünk elöljáróban a megrendelővel arról, mi lenne a cél. 
+Ezen beszélgetést követően készítettük el a követelményspecifikációt ahol rögzítettük az igényeket.
+Ezt követően funkcionális specifikációban részletekbe menően, számos szempont alapján tisztáztuk a projekt 
+során felmerülő esetlegesen nem egyértelmű pontokat. Végül ezt követően készült el jelen dokumentum, 
+a rendszerterv is. A következő fő lépés és mérföldkő maga a kódolás lesz, amit a napokban kezdünk majd.
 
 # 3. Üzleti folyamatok modellje
 
