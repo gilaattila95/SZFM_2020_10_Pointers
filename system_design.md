@@ -27,7 +27,7 @@ Az ütemtervünk a következőképp nézett ki: egyeztettünk elöljáróban a m
 Ezen beszélgetést követően készítettük el a követelményspecifikációt ahol rögzítettük az igényeket.
 Ezt követően funkcionális specifikációban részletekbe menően, számos szempont alapján tisztáztuk a projekt 
 során felmerülő esetlegesen nem egyértelmű pontokat. Végül ezt követően készült el jelen dokumentum, 
-a rendszerterv is. A következő fő lépés és mérföldkő maga a kódolás lesz, amit a napokban kezdünk majd.
+a rendszerterv is. A következő fő lépés és mérföldkő maga a kódolás illetve a tesztelés lesz, amit a napokban fogunk elkezdeni.
 
 # 3. Üzleti folyamatok modellje
 
@@ -102,4 +102,17 @@ adminisztrátori jóváhagyás előz meg.
 
 # 12. Telepítési terv
 
+A felhasználó esetében a következőképp néz majd ki:
+- Egy telefon vagy mobileszköz megléte, használható állapotban
+- Internetelérés
+- A rendszeren alapértelmezett böngésző használata vagy harmadik féltől származó böngésző letöltése és telepítése
+- Az oldal URL-jének címsorba történő begépelése
+
 # 13. Karbantartási terv
+
+Mivel mind jól tudjuk, hogy az informatika egy folyamatosan megújuló iparág, fontosnak tartjuk, hogy naprakészek maradjunk az aktuális szabványokkal,
+technológiákkal kapcsolatban. Ebből adódóan kötelességünknek érezzük, hogy weblapunkat átadás után is
+karbantartsuk, illetve korszerűsítsük azzal, hogy mindig naprakész technológiákat használunk.
+
+A tartalomra vonatkozóan pedig mindkét kategóriájú cikkek rendszeres frissítését tervezzük, így az adatbázisban nem lesznek
+megtalálhatók több hetes, a felhasználók által már megunt cikkek.
