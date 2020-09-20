@@ -21,7 +21,7 @@ Ugyanez vonatkozik az adminisztrátorokra is. Jelen esetünkben ők a másodlago
 
 <p align="center">
 UML ábra</br>
-    <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/ff5e21ba06d99c6a5e85ee815fecc640fab08407/images/UML.png">
+    <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/ff5e21ba06d99c6a5e85ee815fecc640fab08407/images/fact_UML.png">
 </p>
 <br>
 
@@ -38,6 +38,10 @@ UML ábra</br>
 <b>Eset 3: Vicces gomb</b>
 - A felhasználó erre kattintva a vicces tények csoportjába tartozó cikkek listáját jelenítheti meg.</br>
 
+<b>Eset 4: Cikk beküldése</b>
+- A felhasználó erre kattintva cikkeket küldhet be.
+- A cikk beküldése után nem jelenik meg azonnal az oldalon. Ahhoz előbb az adminisztrátornak is engedélyeznie kell.</br>
+
 <b>Eset 5: Adminisztrátor bejelentkező</b>
 - Admin bejelentkezési űrlap megjelenítése.
 - Beküldés után az űrlap adatainak ellenőrzése
@@ -47,6 +51,10 @@ UML ábra</br>
 - Cikkfeltöltő űrlap megjelenítése. 
 - Űrlap adatainak tárolása.
 - At űrlap adatainak ellenőrzése (hiányzó elemek, helyes képformátumok használata)
+
+<b>Eset 7: Beküldött cikkek kezelése</b>
+- Az adminisztrátor láthatja, ha az egyik munkatárs cikket küldött be.
+- Az adminisztrátor a beküldött cikkeket elfogadhatja vagy elutasíthatja.
 
 ## 10. Képernyő tervek.
 
