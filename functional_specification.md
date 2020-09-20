@@ -99,7 +99,7 @@ UML ábra</br>
 &nbsp;&nbsp;     11.8.4.		Weboldal tesztelése.Hiba esetén 11.8.5.-es pont.Amennyibel nincs hiba, akkor a 11.9.-es pont.<br>	
 &nbsp;&nbsp;     11.8.5.		Weboldal hibájának/hibáinak kijavítása. Vissza a 11.8.4.-as pontra.
 -    11.9.	Weboldal átadása.
-
+-    11.9.	Weboldal karbantartása.
 
 ## 12. Funkció – követelmény megfeleltetés.
 A követelményspecifikációban követelményként megadott reszponzív design feltétele teljesülni fog, ugyanis a front-end Bootsrtrap
