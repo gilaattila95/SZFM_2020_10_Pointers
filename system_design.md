@@ -56,7 +56,6 @@ adminisztrátori jóváhagyás előz meg.
 ## Nemfunkcionális követelmények:
 
 - Letisztult, egyszerű, átlátható felület
-- Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
 
 # 5. Funkcionális terv
 
