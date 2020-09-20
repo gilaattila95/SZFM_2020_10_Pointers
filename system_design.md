@@ -31,9 +31,19 @@ a rendszerterv is. A következő fő lépés és mérföldkő maga a kódolás l
 
 # 3. Üzleti folyamatok modellje
 
-- Üzleti szereplők
-- Üzleti folyamatok
-- Üzleti entitások
+A felhasználó a weblapot megnyitva egy egyszerű, könnyen átlátható főképernyőn találja magát, 
+ahol alapértelmezetten az érdekes tényeket tartalmazó cikkek jönnek majd vele szembe.
+Innen a fenti menüsorból navigálhat tovább a felhasználó. A menüsor tartalma:
+
+- 'Érdekességek' gomb: A gombra kattintva eljuthatunk az érdekes cikkek listájához. A főképernyőről ezen menüpontra kattintva nem érzékelünk 
+újdonságot, hiszen alapértelmezés szerint is ezeket a cikkeket látjuk.
+
+- 'Viccesek' gomb: A gombra kattintva a felhasználó eljut a vicces cikkek listájához.
+
+- 'Cikk beküldése' gomb: A felhasználónak lehetőséged ad saját cikkek beküldésére. Az oldalon való megjelenést viszont
+adminisztrátori jóváhagyás előz meg.
+
+- 'Admin belépés' gomb: Az adminisztrátori bejelentkező űrlapra viszi a felhasználót. 
 
 # 4. Követelmények
 
@@ -47,8 +57,6 @@ a rendszerterv is. A következő fő lépés és mérföldkő maga a kódolás l
 
 - Letisztult, egyszerű, átlátható felület
 - Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
-
-## Törvényi előírások, szabványok:
 
 # 5. Funkcionális terv
 
