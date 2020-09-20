@@ -92,14 +92,15 @@ UML ábra</br>
 &nbsp;&nbsp;     11.6.12.		Funkció – követelmény megfeleltetés.<br>	
 &nbsp;&nbsp;     11.6.13.		Fogalomszótár.
 -    11.7.	Hamradik meeting a céggel.
--    11.8.	Weboldal elkészítése.<br>	
-&nbsp;&nbsp;     11.8.1.		Weboldal alapjának kódolása.<br>	
-&nbsp;&nbsp;     11.8.2.		Weboldal script-elése.<br>	
-&nbsp;&nbsp;     11.8.3.		Cikkek,Képek hozzáadása.<br>	
-&nbsp;&nbsp;     11.8.4.		Weboldal tesztelése.Hiba esetén 11.8.5.-es pont.Amennyibel nincs hiba, akkor a 11.9.-es pont.<br>	
-&nbsp;&nbsp;     11.8.5.		Weboldal hibájának/hibáinak kijavítása. Vissza a 11.8.4.-as pontra.
--    11.9.	Weboldal átadása.
--    11.9.	Weboldal karbantartása.
+-    11.8.	Első csapat meeting.
+-    11.9.	Weboldal elkészítése.<br>	
+&nbsp;&nbsp;     11.9.1.		Weboldal alapjának kódolása.<br>	
+&nbsp;&nbsp;     11.9.2.		Weboldal script-elése.<br>	
+&nbsp;&nbsp;     11.9.3.		Cikkek,Képek hozzáadása.<br>	
+&nbsp;&nbsp;     11.9.4.		Weboldal tesztelése.Hiba esetén 11.8.5.-es pont.Amennyibel nincs hiba, akkor a 11.9.-es pont.<br>	
+&nbsp;&nbsp;     11.9.5.		Weboldal hibájának/hibáinak kijavítása. Vissza a 11.8.4.-as pontra.
+-    11.10.	Weboldal átadása.
+-    11.11.	Weboldal karbantartása.
 
 ## 12. Funkció – követelmény megfeleltetés.
 A követelményspecifikációban követelményként megadott reszponzív design feltétele teljesülni fog, ugyanis a front-end Bootsrtrap
