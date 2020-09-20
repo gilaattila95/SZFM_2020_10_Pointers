@@ -100,6 +100,16 @@ adminisztrátori jóváhagyás előz meg.
 
 # 11. Tesztterv
 
+Leginkább adat tesztelés elvégzésére lesz szükség:
+- Adminisztrátor bejelentkezésére vonatkozó tesztelés: több különböző adatot beírni (helyes és helytelen). Helyes adat esetén az adminisztrátor sikeresen bejelentkezik a felületre. Helytelen adat megadása esetén hibaüzenetet kellene kapnunk.
+- Az adminisztrátor kijelentkezés megfelelően működik-e? Ha igen, az adminisztrátor kijelentkezik az adminisztrációs felületből és a boolean értéke 0 lesz.
+- Az adminisztrátori cikk feltöltési mező tesztelése: üres mező beküldése esetén hibaüzenetet kellene kapnunk. Ha minden mezőt kitöltöttünk, a beküldésnek sikeresnek kellene lennie.
+- Cikk feltöltésekor azt is ellenőrízni, hogy a képformátumot figyelembe veszi-e a program. Rossz képformátum (minden, ami nem jpg, jpeg vagy png) feltöltése esetén visszajelzést kellene kapnunk, hogy a cikk feltöltése nem sikerült.
+- A munkatársak általi cikk beküldési mező tesztelése: minden mezőnek kitöltve kell lennie a sikeres cikk beküldéshez. Ellenkező esetben hibaüzenetet kell kapnunk.
+- Like vagy dislike gomb tesztelése. Az egyikre klikkelve annak értéke eggyel kellene nőnie.
+- Annak ellenőrzése, hogy a weboldal reszponzívan működik-e.
+
+
 # 12. Telepítési terv
 
 A felhasználó esetében a következőképp néz majd ki:
