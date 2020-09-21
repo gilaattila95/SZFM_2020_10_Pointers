@@ -1,18 +1,38 @@
 # Funkcionális Specifikáció
 
 ## 1. A rendszer céljai és nem céljai. 
+### Célok:
+####A fő célja az oldalnak, hogy random tényeket tárjon a nagyvilágból a fellhasználó elé.
+- Két kategória közötti választás (Komoly és vicces tény)
+- Like és dislike gomb minden egyes cikk alatt
+- Saját cikk beküldésére egy gomb (Amit, hogy megjelenjen az oldalon egy adminnak el kell fogadnia)
+- Egy kategória kiválasztás után vissza lépési lehetőség egy gombbal
+- Egy kategória kiválasztás után előre lépési lehetőség az adott kategóriában egy gombbal
+
+### Nem célok:
+- Felhasználó regisztráció
+- Animációk és videók elhelyezése az oldalon
+- Reklámok elhelyezése az oldalon
+- Egy azon cikket kétszer egymás után mutasson
 
 ## 2. Jelenlegi helyzet leírása.
+-- Követelmény specifikációban részletezésre került
 
 ## 3. Vágyálom rendszer leírása.
+-- Követelmény specifikációban részletezésre került
 
 ## 4. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
 
+//Folyamatban//
+
 ## 5. Jelenlegi üzleti folyamatok modellje.
+-- Követelmény specifikációban részletezésre került
 
 ## 6. Igényelt üzleti folyamatok modellje.
+-- Követelmény specifikációban részletezésre került
 
 ## 7. Követelmény lista.
+-- Követelmény specifikációban részletezésre került
 
 ## 8. Használati esetek.
 <p>Jelen esetünkben az aktorok lehetnek a weboldalt látogató munkatársak, akik a fact portált kikapcsolódás céljából látogatják és a weboldalt üzemeltető adminisztrátorok, akik újabb és újabb cikkeket adhatnak hozzá.<br>
