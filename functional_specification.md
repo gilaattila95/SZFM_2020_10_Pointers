@@ -92,7 +92,7 @@ UML ábra</br>
 -    11.3.	Első csapat meeting.
 -    11.4. 	Második meeting a céggel.
 -    11.5.	Követelmény specifikációtanulmányozása.<br>	
-&nbsp;&nbsp;    11.5.1.		Jelenlegi helyzet.<br>	
+&nbsp;&nbsp; - 11.5.1.		Jelenlegi helyzet.<br>	
 &nbsp;&nbsp;    11.5.2.		Vágyálom rendszer.<br>	
 &nbsp;&nbsp;    11.5.3.		Igényelt üzleti folyamatok.<br>	
 &nbsp;&nbsp;    11.5.4.		A rendszerre vonatkozó szabályok.<br>	
