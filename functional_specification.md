@@ -2,7 +2,7 @@
 
 ## 1. A rendszer céljai és nem céljai. 
 ### Célok:
-####A fő célja az oldalnak, hogy random tényeket tárjon a nagyvilágból a fellhasználó elé.
+#### A fő célja az oldalnak, hogy random tényeket tárjon a nagyvilágból a fellhasználó elé.
 - Két kategória közötti választás (Komoly és vicces tény)
 - Like és dislike gomb minden egyes cikk alatt
 - Saját cikk beküldésére egy gomb (Amit, hogy megjelenjen az oldalon egy adminnak el kell fogadnia)
