@@ -5,15 +5,17 @@
 #### A fő célja az oldalnak, hogy random tényeket tárjon a nagyvilágból a fellhasználó elé.
 - Két kategória közötti választás (Komoly és vicces tény)
 - Like és dislike gomb minden egyes cikk alatt
-- Saját cikk beküldésére egy gomb (Amit, hogy megjelenjen az oldalon egy adminnak el kell fogadnia)
-- Egy kategória kiválasztás után vissza lépési lehetőség egy gombbal
-- Egy kategória kiválasztás után előre lépési lehetőség az adott kategóriában egy gombbal
+- Saját cikk beküldésére egy gomb (Amit, hogy megjelenjen az oldalon, egy adminnak el kell fogadnia)
+- Egy kategória kiválasztás után visszalépési lehetőség egy gombbal
+- Egy kategória kiválasztás után előrelépési lehetőség az adott kategóriában egy gombbal
 
 ### Nem célok:
 - Felhasználó regisztráció
+- Hírlevél feliratkozás lehetősége
 - Animációk és videók elhelyezése az oldalon
 - Reklámok elhelyezése az oldalon
-- Egy azon cikket kétszer egymás után mutasson
+- Egyazon cikket kétszer egymás után mutasson
+- Az említettnél több témakörben cikkeket gyűjteni
 
 ## 2. Jelenlegi helyzet leírása.
 -- Követelmény specifikációban részletezésre került
@@ -86,6 +88,8 @@ UML ábra</br>
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/Kepernyoterv%206.png" width="50%" height="50%">
 
 ## 11. Forgatókönyvek.
+
+
 
 * 11.1.	Kapcsolatfelvétel.
 * 11.2.	Első meeting a céggel.
