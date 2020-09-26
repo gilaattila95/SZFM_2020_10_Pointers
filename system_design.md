@@ -119,8 +119,11 @@ Böngészők:
 
 - Logikai adatmodell
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/fact_db.png" width="50%" height="50%">
+
 - Tárolt eljárások
+
 A cikkekkel kapcsolatos adatok tárolására jelenleg a phpMyAdmin nyílt forráskódú eszközt használjuk. A képek feltöltése során a jpg vagy png formátumú fájlokat a projekt saját images mappájába fogjuk átmásolni.
+
 - Fizikai adatmodellt legeneráló SQL szkript
 
 ~~~~sql
