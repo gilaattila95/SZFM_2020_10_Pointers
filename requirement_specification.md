@@ -17,7 +17,7 @@
 -    3.6.	Visszajelzés fül.
 
 # 4.	A rendszerre vonatkozó szabályok
-- Cikkek tárolása mysql-ben.
+- Cikkek tárolása MySQL-ben.
 - HTML/CSS alkalmazása.
 - A reszponzív design megvalósítása Bootsrtrap front-end keretrendszerrel történjen.
 - A képek formátumára vonatkozó követelmények: JPEG, JPG és PNG
@@ -29,3 +29,13 @@
 - K04 Adatbázisba könnyen hozzáadhatók legyenek a cikkek.
 - K05 Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
 - K06 Böngészőfüggetlenség
+
+#6. Fogalomszótár
+
+- [MySQL](https://en.wikipedia.org/wiki/MySQL)
+- [HTML](https://hu.wikipedia.org/wiki/HTML)
+- [CSS](https://hu.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Reszponzív design](https://en.wikipedia.org/wiki/Responsive_web_design)
+- [Front-end](https://en.wikipedia.org/wiki/Front-end_web_development)
+- [Boostrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+- [Böngészőfüggetlenség](https://en.wikipedia.org/wiki/Cross-browser_compatibility)
