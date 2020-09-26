@@ -118,8 +118,28 @@ Böngészők:
 # 9. Adatbázis terv
 
 - Logikai adatmodell
+<img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/fact_db.png" width="50%" height="50%">
 - Tárolt eljárások
+A cikkekkel kapcsolatos adatok tárolására jelenleg a phpMyAdmin nyílt forráskódú eszközt használjuk. A képek feltöltése során a jpg vagy png formátumú fájlokat a projekt saját images mappájába fogjuk átmásolni.
 - Fizikai adatmodellt legeneráló SQL szkript
+```
+CREATE TABLE `admin_userek` (
+  `auid` int(11) NOT NULL,
+  `email` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
+  `jelszo` char(255) COLLATE utf8_hungarian_ci NOT NULL,
+  `uname` varchar(60) COLLATE utf8_hungarian_ci NOT NULL,
+  `aktiv` int(11) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+CREATE TABLE `cikkek` (
+  `cid` int(11) NOT NULL,
+  `ctext` text COLLATE utf8_hungarian_ci NOT NULL,
+  `kep` varchar(60) COLLATE utf8_hungarian_ci DEFAULT NULL,
+  `asent` int(11) NOT NULL,
+  `aktiv` int(11) NOT NULL,
+  `kategoria` varchar(60) COLLATE utf8_hungarian_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+```
 
 # 10. Implementációs terv
 
