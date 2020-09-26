@@ -122,7 +122,8 @@ Böngészők:
 - Tárolt eljárások
 A cikkekkel kapcsolatos adatok tárolására jelenleg a phpMyAdmin nyílt forráskódú eszközt használjuk. A képek feltöltése során a jpg vagy png formátumú fájlokat a projekt saját images mappájába fogjuk átmásolni.
 - Fizikai adatmodellt legeneráló SQL szkript
-```
+
+~~~~sql
 CREATE TABLE `admin_userek` (
   `auid` int(11) NOT NULL,
   `email` varchar(50) COLLATE utf8_hungarian_ci NOT NULL,
@@ -139,7 +140,7 @@ CREATE TABLE `cikkek` (
   `aktiv` int(11) NOT NULL,
   `kategoria` varchar(60) COLLATE utf8_hungarian_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
-```
+~~~~
 
 # 10. Implementációs terv
 
