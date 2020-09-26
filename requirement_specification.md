@@ -30,7 +30,7 @@
 - K05 Csak két gomb és a cikkek jelenjenek meg a munkatársak számára.
 - K06 Böngészőfüggetlenség
 
-#6. Fogalomszótár
+# 6. Fogalomszótár
 
 - [MySQL](https://en.wikipedia.org/wiki/MySQL)
 - [HTML](https://hu.wikipedia.org/wiki/HTML)
