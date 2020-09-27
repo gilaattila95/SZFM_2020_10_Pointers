@@ -25,23 +25,19 @@ részletezésre került
 A [követelményspecifikációban](https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/requirement_specification.md) 
 részletezésre került
 
-## 4. A rendszerre vonatkozó külső megszorítások: pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása.
-
-//Folyamatban//
-
-## 5. Jelenlegi üzleti folyamatok modellje.
+## 4. Jelenlegi üzleti folyamatok modellje.
 A [követelményspecifikációban](https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/requirement_specification.md) 
 részletezésre került
 
-## 6. Igényelt üzleti folyamatok modellje.
+## 5. Igényelt üzleti folyamatok modellje.
 A [követelményspecifikációban](https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/requirement_specification.md) 
 részletezésre került
 
-## 7. Követelménylista.
+## 6. Követelménylista.
 A [követelményspecifikációban](https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/requirement_specification.md) 
 részletezésre került
 
-## 8. Használati esetek.
+## 7. Használati esetek.
 <p>Jelen esetünkben az aktorok lehetnek a weboldalt látogató munkatársak, akik a fact portált kikapcsolódás céljából látogatják és a weboldalt üzemeltető adminisztrátorok, akik újabb és újabb cikkeket adhatnak hozzá.<br>
 Az elsődleges szereplők, azaz a vállalat munkatársai gép előtt ülő munkát végeznek. Rendelkeznek legalább felhasználói szintű számítógépes ismeretekkel, de elvárás, hogy a weboldal kezelőfelülete ne legyen bonyolult. <br>
 Ugyanez vonatkozik az adminisztrátorokra is. Jelen esetünkben ők a másodlagos szereplők az esetünkben. A bejelentkezés után azonnal, egyszerűen tudjon cikkekel kapcsolatos adatokat bevinni és eltárolni. Fontos, hogy az adatok beküldése után azonnali visszajelzést kapjon az adminisztrátor, ha valami miatt nem sikerült az adatok eltárolása (pl.: kitöltetlen mező, nem megfelelő képformátum)</p>
@@ -52,7 +48,7 @@ UML ábra</br>
 </p>
 <br>
 
-## 9. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
+## 8. Megfeleltetés, hogyan fedik le a használati esetek a követelményeket.
 <b>Eset 1: Főképernyő látogatása</b>
 - A weboldal címének beírása után megjelenő főoldal megjelenítése.
 - Alapértelmezettként az Érdekes tényekkel kapcsolatos cikkek vannak beállítva, így először ez lesz látható.
@@ -83,7 +79,7 @@ UML ábra</br>
 - Az adminisztrátor láthatja, ha az egyik munkatárs cikket küldött be.
 - Az adminisztrátor a beküldött cikkeket elfogadhatja vagy elutasíthatja.
 
-## 10. Képernyő tervek.
+## 9. Képernyő tervek.
 
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/Kepernyoterv%201.png" width="50%" height="50%">
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/Kepernyoterv%202.png" width="50%" height="50%">
@@ -92,7 +88,7 @@ UML ábra</br>
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/Kepernyoterv%205.png" width="50%" height="50%">
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/Kepernyoterv%206.png" width="50%" height="50%">
 
-## 11. Forgatókönyvek.
+## 10. Forgatókönyvek.
 
 Amikor a felhasználó felkeresi a weboldalt, a kezdőképernyőn találja magát. Ebben az esetben máris egy érdekes cikket lát,
 hiszen ez az alapértelmezés. A fenti menüsor segítségével navigálhat a további menüpontok között.
@@ -117,7 +113,7 @@ menüpont jelenik meg.
 - saját magunk által új cikket is hozzáadnunk az "Új cikk hozzáadása" gombbal, 
 - míg az utolsó menüpont az "Admin kilépés" a felületről való kilépésre szolgál.
 
-## 12. Funkció – követelmény megfeleltetés.
+## 11. Funkció – követelmény megfeleltetés.
 <b>Követelményspecifikáció - K01: </b>
 
 A követelményspecifikációban követelményként megadott reszponzív design feltétele teljesülni fog, ugyanis a front-end Bootsrtrap
@@ -147,7 +143,7 @@ számára.
 
 A weblapunk a követelményspecifikációkban meghatározott technológiákkal megvalósítva a böngészőfüggetlenségi követelménynek is maradéktalanul eleget tesz majd, ugyanúgy fog megjelenni az összes asztali böngészőben egyaránt.
 
-## 13. Fogalomszótár.
+## 12. Fogalomszótár.
 
 [Reszponzív design](https://en.wikipedia.org/wiki/Responsive_web_design)
 
