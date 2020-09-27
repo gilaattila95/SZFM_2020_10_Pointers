@@ -19,5 +19,21 @@
 </style>
 </head>
 
+<body>
+	
+	<h2 class="header">
+		Tény Portál
+	</h2>
+    
+	<div class="container adminCikkLista" align="center" style="margin-top: 10px;;">
+		<div class="vertical-center">
+			
+		</div>
+	</div>
+	<h1 class="version">
+		v.0.1
+	</h1>
+    </div>
 
+</body>
 </html>
