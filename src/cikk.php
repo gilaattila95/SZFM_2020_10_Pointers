@@ -48,7 +48,7 @@
 					rows="10"
 					placeholder="Az új tény helye:"
 					name="ctext"
-					style="margin-bottom:  10px;"></textarea>
+					style="margin-bottom:  10px;" required></textarea>
 			<br>
 			<label for="kategoria">Válassz Kategóriát: </label>
 			<select name="kategoria" id="kategoria" style="margin-bottom:  10px;">
