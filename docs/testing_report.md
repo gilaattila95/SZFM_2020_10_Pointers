@@ -1,21 +1,21 @@
-#Tesztjegyzőkönyv
+# Tesztjegyzőkönyv
 
-###Tesztelendő program, alkalmazás:
+### Tesztelendő program, alkalmazás:
 
 SZFM_Fact_Portal
 
-###Tesztelési környezet:
+### Tesztelési környezet:
 Google Chrome, Firefox, Microsoft Edge
 
-###Tesztelés tárgya:
+### Tesztelés tárgya:
 
 Fejlesztői- és Elfogadási teszt
 
-###Tesztelés célja:
+### Tesztelés célja:
 
 Az esetleges rossz funkcionalitás megtalálása, javítása 
 
-###Tesztesetek:
+### Tesztesetek:
 - Teszt 1 : Reszponzivitás vizsgálata:
 <br>Az oldal mindhárom fent említett asztali böngészőn reszponzívan viselkedik.</br>  
 
@@ -50,6 +50,6 @@ Jól működik.</br>
 <br>Elvárás: egy kategóriában csak az adott kategóriájú cikkek kapjanak helyet. Sikeresen teljesül ez a feltétel is, nincs 
 a cikkek között témakör szerinti keveredés.</br> 
 
-###Megjegyzés:
+### Megjegyzés:
 
 A tesztet készítette: Kincs Ákos Levente, 2020.09.27.
