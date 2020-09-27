@@ -118,4 +118,37 @@ if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "article") {
     } 
 }
 
+//FELHASZNALOK ALTAL BEKULDOTT CIKKEK AKTIVALASA VAGY TORLESE
+if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "article") {
+    if (isset($_SESSION["auid"])) {
+        if($pEvent == "aktivalas") {  
+            $cid = $_GET['cid'];
+            $sql = "update cikkek set aktiv = 1 where cid=$cid";
+            
+            if(mysqli_query($dbc, $sql)) {
+                $_SESSION['msg'] ="A cikk aktiválva lett!";
+                header("location: sent_cikk.php");
+                exit;
+            } else {
+                $msg ="A cikk aktiválás sikertelen!";
+                phpAlert($msg);
+            }
+        }
+        
+        if($pEvent == "torles") {  
+            $cid = $_GET['cid'];
+            $sql = "delete from cikkek where cid=$cid";
+
+            if(mysqli_query($dbc, $sql)) {
+                $_SESSION['msg'] ="A cikk törölve lett!";
+                header("location: sent_cikk.php");
+                exit;
+                
+            } else {
+                $msg ="A cikk törlése sikertelen!";
+                phpAlert($msg);
+            }
+        }   
+    } 
+}
 ?>
