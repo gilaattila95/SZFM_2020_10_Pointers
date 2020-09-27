@@ -9,6 +9,16 @@
 <title>SZFM_Fact_Portal</title>
 <link rel="stylesheet" href="style.css">
 </head>
-
+<body>
+	<h2 class="header">
+	Tény Portál
+	</h2>
+    <div class="container" align="center">
+      
+    </div>
+    <h1 class="version">
+    v.0.1
+    </h1>
+</body>
 
 </html>
