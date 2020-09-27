@@ -151,4 +151,18 @@ if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "article") {
         }   
     } 
 }
+
+//FELHASZNÁLÓI CIKK BEKÜLDÉS
+if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "cikk") {
+    if($pEvent == "cikkFelU") {
+        $sql = "insert into cikkek (ctext, asent, aktiv, kategoria) values ('$ctext', 0, 0, '$kategoria')";
+        if(mysqli_query($dbc, $sql)) {
+            $msg = "A cikkfeltöltés sikeres!"; 
+            phpAlert($msg);
+        } else {
+            $msg = "A cikkfeltöltés sikertelen!"; 
+            phpAlert($msg);
+        }
+    }
+}
 ?>
