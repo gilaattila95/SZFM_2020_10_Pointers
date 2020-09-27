@@ -147,9 +147,7 @@ CREATE TABLE `cikkek` (
 
 # 10. Implementációs terv
 
-- Perzisztencia osztályok
-- Üzleti logika osztályai
-- Kliens oldal osztályai
+<img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/implement_uml.png" width="80%" height="auto">
 
 # 11. Tesztterv
 
