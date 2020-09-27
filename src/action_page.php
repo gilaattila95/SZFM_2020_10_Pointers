@@ -94,4 +94,28 @@ if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "administrator") {
     } 
 }
 
+//HA HOSSZÚ A SZÖVEG, LEGYEN RÖVID ÉS '...'
+function truncate($str, $chars, $end = '...') {
+    if (strlen($str) <= $chars) return $str;
+    $new = substr($str, 0, $chars + 1);
+    return substr($new, 0, strrpos($new, ' ')) . $end;
+}
+
+//ADMIN FELÜLETEN A MUNKATÁRSAK ÁLTAL BEKÜLDÖTT CIKKEK MEGJELENÍTÉSE
+if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "sent_cikk") {
+    if (isset($_SESSION["auid"])) {
+        $sql ="select * from cikkek where aktiv=0";
+        $cikkek = mysqli_query($dbc, $sql);
+    } 
+}
+
+//ADMIN FELÜLETEN EGY CIKK MEGNÉZÉSE
+if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "article") {
+    if (isset($_SESSION["auid"])) {
+        $cid = $_GET['cid'];
+        $sql ="select * from cikkek where cid='$cid'";
+        $cikk = mysqli_query($dbc, $sql);
+    } 
+}
+
 ?>
