@@ -45,9 +45,24 @@
             <button type="button" class="button2">Admin kilépés</button>
 		</a>  
 	</div>
-	<div class="container adminCikkLista" align="center" style="margin-top: 10px;;">
+	<div class="container adminCikkLista" align="center" style="margin-top: 10px;">
 		<div class="vertical-center">
-			
+			<?php 
+			if ($result = $dbc->query($sql)) {
+				while ($row = $result->fetch_assoc()) { ?>
+				<a href="article.php?cid=<?php print $row["cid"]; ?>">
+					<div class="card" style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; width: 800px; background-color:white;">
+						<div class="container" style="padding: 2px 16px; text-align:left;">
+							<p><?php print truncate($row["ctext"], 60) ?></p>
+						</div>
+					</div> 
+				</a>	
+			<?php } 
+			} else {
+				$msg = "Nincs adminisztrátori jogosultságod!"; 
+				phpAlert($msg);
+			}
+			?>
 		</div>
 	</div>
 	<h1 class="version">
