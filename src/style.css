@@ -1,0 +1,154 @@
+/*Main styl for the portal*/
+
+body{
+    background-image: url("doc/background.jpg");
+}
+
+.header{
+color:white;
+text-align: center;
+}
+
+
+.button1{
+    cursor: pointer;
+    border:3.5px solid;
+    height:40px;
+    width: 200px;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-color: white;
+    background-color: white;
+}
+
+.button2{
+    cursor: pointer;
+    border:3.5px solid;
+    height:40px;
+    width: 200px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-color: white;
+    background-color: white;
+}
+.version{
+    
+    font-size:1vw;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    
+}
+.article{
+    font-size: 2vw;
+    color: white;
+    border:3px solid;
+    border-color: white;
+    border-radius:25px;
+    height: auto;
+    width: 800px;
+}
+.fact_pic{
+    border:3.5px solid;
+    border-color:white;
+    border-radius:25px;
+}
+
+
+/*index and vicces html*/
+.back{
+    cursor: pointer;
+    border:3.5px solid;
+    height:40px;
+    width: 200px;
+    border-bottom-left-radius:25px;
+    border-top-right-radius:25px;
+    border-color: white;
+    background-color: white;
+								  
+}
+
+.forward{
+    cursor: pointer;
+    border:3.5px solid;
+    height:40px;
+    width: 200px;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-color:white;
+    background-color: white;
+								  
+}
+
+.thumbs {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    font-size: 50px;
+ }
+.fa {
+    cursor: pointer;
+    user-select: none;
+ }
+.fa-thumbs-up {
+    size: 5000px;
+    color: white;
+ }
+.fa-thumbs-down {
+    color:white;
+ }
+
+.fa-thumbs-down:active {
+    transform: scale(1.2);
+        color:red;
+ }
+.fa-thumbs-up:active 
+  {
+    transform: scale(1.2);
+        color:green;
+ }
+
+ /*cikk html*/
+
+ .cikk-header{
+     margin-top: 50px;
+     color:white;
+
+ }
+.cikk-place{
+    resize: none;
+    margin-top: 30px;
+}
+
+ .cikk-button{
+    margin-top: 30px;
+    border:3.5px solid;
+    height:40px;
+    width: 200px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-color:white;								   
+    background-color: white;
+ }
+
+ /*admin html*/
+
+ .admin-button{
+    margin-top: 30px;
+    border:3.5px solid;
+    height:40px;
+    width: 200px;
+    border-top-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-color:white;								   
+    background-color: white;
+ }
+
+ .login{
+     margin-top:30px;
+     color: white;
+     padding:15px;
+ }
+
+ .adminCikkLista a:link {
+    text-decoration: none;
+ }
