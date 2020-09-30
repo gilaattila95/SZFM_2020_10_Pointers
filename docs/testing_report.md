@@ -178,7 +178,8 @@ echo truncate($text2, 25);
 - Teszt 1: Style.css ellenőrzése. Minden elem a helyén és kívánt kinézet elérve.
 
 - Teszt 2: Érdekes cikkek kezelésének ellenőrzése az action_page.php fájlban. Random cikk beszedése sikeres mely aktiv és érdekes is.
-```if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "index") {
+```php
+if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "index") {
     //érdekes cikkek számának megszámolása
     if ($result = mysqli_query($dbc, "SELECT * FROM cikkek WHERE kategoria ='érdekes' and aktiv = 1")) {
         $row_cnt = mysqli_num_rows($result);
@@ -187,10 +188,12 @@ echo truncate($text2, 25);
 
     $sql = "select * from cikkek where kategoria = 'érdekes' and aktiv = 1 order by RAND() LIMIT $row_cnt";
     $erdekes = mysqli_query($dbc, $sql);
-}```
+}
+```
 
 - Teszt 3:Vicces cikkek kezelésének ellenőrzése az action_page.php fájlban. Random cikk beszedése sikeres mely aktiv és vicces is.
-```if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "vicces") {
+```php
+if (pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME) == "vicces") {
     //vicces cikkek számának megszámolása
     if ($result = mysqli_query($dbc, "SELECT * FROM cikkek WHERE kategoria ='vicces' and aktiv = 1")) {
         $row_cnt = mysqli_num_rows($result);
@@ -199,44 +202,49 @@ echo truncate($text2, 25);
 
     $sql = "select * from cikkek where kategoria = 'vicces' and aktiv = 1 order by RAND() LIMIT $row_cnt";
     $erdekes = mysqli_query($dbc, $sql);
-}```
+}
+```
 
 - Teszt 4:Érdekes cikkek betöltésenek ellenőrzése az index.php oldalon. A cikkek kívánt módon betöltődnek. Későbbi verzióban fejlesztésre szorul, hogy egymás után ne jelenjen meg ugyan az a cikk.
-```<h1 class="article">
+```php
+<h1 class="article">
 	<?php if ($result = $dbc->query($sql)) {
-  $erdekes = $result->fetch_assoc(); 
-  print $erdekes['ctext'];
-  }?>
+		$erdekes = $result->fetch_assoc(); 
+		print $erdekes['ctext'];
+	}?>
 <h1>  
 <img src="images/<?php print $erdekes["kep"] ?>" class="fact_pic" width="30%" height="30%"></p>
 ```
 
 - Teszt 5:Vicces cikkek betöltésenek ellenőrzése az vicces.php oldalon. A cikkek kívánt módon betöltődnek. Későbbi verzióban fejlesztésre szorul, hogy egymás után ne jelenjen meg ugyan az a cikk.
-```<h1 class="article"> 
+```php
+<h1 class="article"> 
 	<?php if ($result = $dbc->query($sql)) {
-  $vicces = $result->fetch_assoc(); 
-  print $vicces['ctext'];
-  }?>
-  </h1>
-  <img src="images/<?php print $vicces["kep"] ?>" class="fact_pic" width="30%" height="30%"></p>
+		$vicces = $result->fetch_assoc(); 
+		print $vicces['ctext'];
+	}?>
+</h1>
+<img src="images/<?php print $vicces["kep"] ?>" class="fact_pic" width="30%" height="30%"></p>
 ```
 
 - Teszt 6: Like gomb funkcionalitásának ellenőrzése main.js fájlban. Gomb működik, klikkelésre számlál. Későbbi verzióban fejlesztésere szorul, hogy a like-okat mentse az adatbázisban és ip-nként egyet engedélyezzen.
-```	var like = document.getElementById("fa fa-thumbs-up"),
-	count1 = 0;
-	like.onclick = function() {
+```js
+var like = document.getElementById("fa fa-thumbs-up"),
+count1 = 0;
+like.onclick = function() {
 	count1 += 1;
 	like.innerHTML ="Like:"  + count1;
-	};
+};
 ```
 
 - Teszt 7: Dislike gomb funkcionalitásának ellenőrzésea main.js fájlban. Gomb működik, klikkelésre számlál. Későbbi verzióban fejlesztésere szorul, hogy a dislike-okat mentse az adatbázisban és ip-nként egyet engedélyezzen.
-```	var dislike = document.getElementById("fa fa-thumbs-down"),
-	count2 = 0;
-	dislike.onclick = function() {
+```js	
+var dislike = document.getElementById("fa fa-thumbs-down"),
+count2 = 0;
+dislike.onclick = function() {
 	count2 += 1;
 	dislike.innerHTML ="Dislike:"  + count2;
-	};
+};
 ```
 - Teszt 8: Cikk beküldés adminoldalon. Szöveg, kép és kategória választás sikeresen megtörténik és a cikk is feltöltésre kerül. Későbbi verzióban fejlesztésere szorul, hogy ne engedjen szöveg és fájl nélkül beküldeni cikket.
 
