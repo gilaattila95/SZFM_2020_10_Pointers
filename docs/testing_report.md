@@ -171,3 +171,4 @@ echo truncate($text2, 25);
 A tesztet készítette: 
 - Kincs Ákos Levente, 2020.09.27.
 - Halász Dávid, 2020. 09. 27.
+- Tóth László Szilárd, 2020.09.30.
