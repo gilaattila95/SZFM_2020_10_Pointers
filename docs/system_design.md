@@ -136,6 +136,7 @@ Böngészők:
 - HTML
 - CSS
 - PHP
+- JavaScript
 
 ### Keretrendszer
 - Bootstrap
