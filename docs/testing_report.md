@@ -16,6 +16,9 @@ Fejlesztői- és Elfogadási teszt
 Az esetleges rossz funkcionalitás megtalálása, javítása 
 
 ### Tesztesetek:
+
+### Kincs Ákos Levente:
+
 - Teszt 1 : Reszponzivitás vizsgálata:
 <br>Az oldal mindhárom fent említett asztali böngészőn reszponzívan viselkedik.</br>  
 
@@ -50,7 +53,9 @@ Jól működik.</br>
 <br>Elvárás: egy kategóriában csak az adott kategóriájú cikkek kapjanak helyet. Sikeresen teljesül ez a feltétel is, nincs 
 a cikkek között témakör szerinti keveredés.</br> 
 
-- Teszt 11: Az admin jelszavas tesztelésnél a jelszó a 'password' lett megadva és a hashed jelszó szintén ugyanez, így a belépésnek sikeresnek kell lennie. A kapott eredmény alapján hibaüzenet nélkül lefut a kód:
+#### Halász Dávid:
+
+- Teszt 1: Az admin jelszavas tesztelésnél a jelszó a 'password' lett megadva és a hashed jelszó szintén ugyanez, így a belépésnek sikeresnek kell lennie. A kapott eredmény alapján hibaüzenet nélkül lefut a kód:
 ```php
 // Admin belépés tesztelése
 
@@ -74,7 +79,7 @@ echo 'A kapott eredmény: ' . $uzenet . '<br><br>';
 
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/teszt1.PNG" width="50%">
 
-- Teszt 12: az előző kódcsipetben a jelszót változtattam meg 'jelszo'-ra így sikertelen belépés hibaüzenetet kell kapnunk, ami teljesül is:
+- Teszt 2: az előző kódcsipetben a jelszót változtattam meg 'jelszo'-ra így sikertelen belépés hibaüzenetet kell kapnunk, ami teljesül is:
 
 ```php
 $psw = 'jelszo';
@@ -96,7 +101,7 @@ echo 'A kapott eredmény: ' . $uzenet . '<br><br>';
 ```
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/teszt2.PNG" width="50%">
 
-- Teszt 13: Annak a függvénynek vizsgálata, hogy túl hosszú szöveg esetén elvégzi-e a szöveglevágást.  Ha a string hossza nagyobb, mint 25, rövidítse le és a végére '...'-ot illesszen. Első esetben a string hossza csak 21, ezért a teljes szöveget kell megjelenítenie.
+- Teszt 3: Annak a függvénynek vizsgálata, hogy túl hosszú szöveg esetén elvégzi-e a szöveglevágást.  Ha a string hossza nagyobb, mint 25, rövidítse le és a végére '...'-ot illesszen. Első esetben a string hossza csak 21, ezért a teljes szöveget kell megjelenítenie.
 
 ```php
 function truncate($str, $chars, $end = '...') {
@@ -113,7 +118,7 @@ echo truncate($text, 25);
 ```
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/teszt3.PNG" width="70%">
 
-- Teszt 14: Az előző truncate() függvény vizsgálata 25-nél hosszabb szöveggel:
+- Teszt 4: Az előző truncate() függvény vizsgálata 25-nél hosszabb szöveggel:
 
 ```php
 $text2 = 'lorem ipsum dolor et. Sed at auctor libero.';
@@ -124,51 +129,76 @@ echo truncate($text2, 25);
 ```
 <img src="https://github.com/gilaattila95/SZFM_2020_10_Pointers/blob/master/images/teszt4.PNG" width="70%">
 
-- Teszt 15: Az admin felületben a cikkbeküldésnél üres mezőt nem lehet beküldeni, ha így teszünk, a program az elvárt módon jelez, hogy a mező üres.
+- Teszt 5: Az admin felületben a cikkbeküldésnél üres mezőt nem lehet beküldeni, ha így teszünk, a program az elvárt módon jelez, hogy a mező üres.
 
-- Teszt 16: Cikk feltöltéskor a képformátum ellenőrzése. Csak jpg, jpeg és png képformátumot fogadhat el. Jelen esetben egy pdf formátummal próbálkoztam. A program a várt módon működik: felugró ablakban kiírja, hogy helytelen képformátum.
+- Teszt 6: Cikk feltöltéskor a képformátum ellenőrzése. Csak jpg, jpeg és png képformátumot fogadhat el. Jelen esetben egy pdf formátummal próbálkoztam. A program a várt módon működik: felugró ablakban kiírja, hogy helytelen képformátum.
 
-- Teszt 17: A felhasználói cikkbeküldő felületnél üres mezőt nem lehet beküldeni, ha így teszünk, a program az elvárt módon jelez, hogy a mező üres.
+- Teszt 7: A felhasználói cikkbeküldő felületnél üres mezőt nem lehet beküldeni, ha így teszünk, a program az elvárt módon jelez, hogy a mező üres.
 
-- Teszt 18: Ha egy felhasználó beküld egy cikket, az megjelenik az admin felületen.
+- Teszt 8: Ha egy felhasználó beküld egy cikket, az megjelenik az admin felületen.
 
-- Teszt 19: Az admin felületen a felhasználó által beküldött cikkekre rá lehet kattintani, hogy szerkeszthessük. Itt a törlés gomb megfelelően működik. Az adott cikk törölve lesz az adatbázisból.
+- Teszt 9: Az admin felületen a felhasználó által beküldött cikkekre rá lehet kattintani, hogy szerkeszthessük. Itt a törlés gomb megfelelően működik. Az adott cikk törölve lesz az adatbázisból.
 
-- Teszt 20: Az admin felületen a felhasználók által beküldött cikk szerkesztésekor az aktiváló gomb működik. Erre klikkelve megjelenik a főoldalon a cikk.
+- Teszt 10: Az admin felületen a felhasználók által beküldött cikk szerkesztésekor az aktiváló gomb működik. Erre klikkelve megjelenik a főoldalon a cikk.
 
-- Teszt 21: "Érdekességek" fül.
+#### Tóth László Szilárd:
+
+- Teszt 1: "Érdekességek" fül.
 	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és elvisz az érdekes cikkekhez.
 
-- Teszt 22: "Viccesek" fül.
+- Teszt 2: "Viccesek" fül.
 	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és elvisz a vicces cikkekhez.
 
-- Teszt 23: "Cikk beküldése" fül.
+- Teszt 3: "Cikk beküldése" fül.
 	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és átírányít egy másik weboldalra, ahol beküldhetünk új cikket.
 
-- Teszt 24: "Admin belépés" fül.
+- Teszt 4: "Admin belépés" fül.
 	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és átírányít egy másik weboldalra, ahol be tudunk lépni az admin felületre.
 
-- Teszt 25: "Érdekességek" és "Viccesek" fülnél a "következő" gomb
+- Teszt 5: "Érdekességek" és "Viccesek" fülnél a "következő" gomb
 	Az oldal betölti a következő cikket, ha rákattintunk.
 
-- Teszt 26: "Like","Dislike"
+- Teszt 6: "Like","Dislike"
 	Működik. Ha rákattintunk, akkor számolja a "like"-ok és "dislike"-ok számát.
 
-- Teszt 27: Cikk beküldése.
+- Teszt 7: Cikk beküldése.
 	A beküldés működik, megjellnik az admin felületen.
 
-- Teszt 28: Beküldött cikk elfogadása.
+- Teszt 8: Beküldött cikk elfogadása.
 	Elfogadás után a cikk megjelenik a weblapon.
 
-- Teszt 29: Cikkek feltöltése admin felületről.
+- Teszt 9: Cikkek feltöltése admin felületről.
 	Sikeres. A feltöltött cikk illetve kép is megjelenik.	
 
-- Teszt 30: A cikkek megjelenése az elvárt helyükön.
+- Teszt 10: A cikkek megjelenése az elvárt helyükön.
 	Sikeres. Minden cikk az előre megadott helyén jelenik meg.
+	
+#### Gila Attila Zoltán:
+
+- Teszt 1:
+
+- Teszt 2:
+
+- Teszt 3:
+
+- Teszt 4:
+
+- Teszt 5:
+
+- Teszt 6:
+
+- Teszt 7:
+
+- Teszt 8:
+
+- Teszt 9:
+
+- Teszt 10:
 
 ### Megjegyzés:
 
 A tesztet készítette: 
 - Kincs Ákos Levente, 2020.09.27.
-- Halász Dávid, 2020. 09. 27.
+- Halász Dávid, 2020.09.27.
 - Tóth László Szilárd, 2020.09.30.
+- Gila Attila Zoltán 2020.09.30.
