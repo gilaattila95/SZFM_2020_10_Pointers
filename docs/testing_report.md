@@ -136,6 +136,36 @@ echo truncate($text2, 25);
 
 - Teszt 20: Az admin felületen a felhasználók által beküldött cikk szerkesztésekor az aktiváló gomb működik. Erre klikkelve megjelenik a főoldalon a cikk.
 
+- Teszt 21: "Érdekességek" fül.
+	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és elvisz az érdekes cikkekhez.
+
+- Teszt 22: "Viccesek" fül.
+	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és elvisz a vicces cikkekhez.
+
+- Teszt 23: "Cikk beküldése" fül.
+	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és átírányít egy másik weboldalra, ahol beküldhetünk új cikket.
+
+- Teszt 24: "Admin belépés" fül.
+	Ha rákíttintunk, akkor az oldal helyesen végzi el a dolgát és átírányít egy másik weboldalra, ahol be tudunk lépni az admin felületre.
+
+- Teszt 25: "Érdekességek" és "Viccesek" fülnél a "következő" gomb
+	Az oldal betölti a következő cikket, ha rákattintunk.
+
+- Teszt 26: "Like","Dislike"
+	Működik. Ha rákattintunk, akkor számolja a "like"-ok és "dislike"-ok számát.
+
+- Teszt 27: Cikk beküldése.
+	A beküldés működik, megjellnik az admin felületen.
+
+- Teszt 28: Beküldött cikk elfogadása.
+	Elfogadás után a cikk megjelenik a weblapon.
+
+- Teszt 29: Cikkek feltöltése admin felületről.
+	Sikeres. A feltöltött cikk illetve kép is megjelenik.	
+
+- Teszt 30: A cikkek megjelenése az elvárt helyükön.
+	Sikeres. Minden cikk az előre megadott helyén jelenik meg.
+
 ### Megjegyzés:
 
 A tesztet készítette: 
